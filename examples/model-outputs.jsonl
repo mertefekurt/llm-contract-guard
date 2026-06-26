@@ -1,0 +1,3 @@
+{"id":"ticket-101","output":"```json\n{\"category\":\"billing\",\"priority\":\"medium\",\"confidence\":0.82,\"needs_human_review\":false}\n```"}
+{"id":"ticket-102","output":"The classification is {\"category\":\"security\",\"priority\":\"urgent\",\"confidence\":\"0.96\",\"needs_human_review\":\"true\"}."}
+{"id":"ticket-103","output":"{\"category\":\"bug\",\"priority\":\"critical\",\"confidence\":1.2,\"needs_human_review\":false}"}
