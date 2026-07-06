@@ -1,28 +1,34 @@
 # LLM Contract Guard
 
-![LLM Contract Guard cover](assets/readme-cover.svg)
-
-## What I keep this for
-
 Validate messy LLM JSON outputs against explicit response contracts.
 
-It is a small repo, so the README focuses on the path from clone to first useful output.
+![LLM Contract Guard cover](assets/readme-cover.svg)
 
-## Clone and run
+## Where things live
+
+```text
+.github/        CI workflow
+examples/       sample inputs
+src/            package source
+tests/          test coverage
+.gitignore      project file
+```
+
+## Processing path
+
+![Workflow diagram](assets/readme-diagram.svg)
+
+## Start here
 
 ```bash
 git clone https://github.com/mertefekurt/llm-contract-guard.git
 cd llm-contract-guard
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -e ".[dev]"
 llm-contract-guard examples/classifier.schema.json
 ```
 
-## Checks before changing it
+## Useful details
 
-```bash
-ruff check .
-pytest
-python -m llm_contract_guard --help
-```
+- Designed as a focused model evaluation repo.
+- Keeps setup short.
+- Prioritizes readable output over infrastructure.
