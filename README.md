@@ -1,22 +1,10 @@
-# LLM Contract Guard
+# Llm Contract Guard
+
+![Llm Contract Guard cover](assets/readme-cover.svg)
 
 Validate messy LLM JSON outputs against explicit response contracts.
 
-![LLM Contract Guard cover](assets/readme-cover.svg)
-
-## Where things live
-
-```text
-.github/        CI workflow
-examples/       sample inputs
-src/            package source
-tests/          test coverage
-.gitignore      project file
-```
-
-## Processing path
-
-![Workflow diagram](assets/readme-diagram.svg)
+`Python`
 
 ## Start here
 
@@ -27,8 +15,18 @@ python -m pip install -e ".[dev]"
 llm-contract-guard examples/classifier.schema.json
 ```
 
-## Useful details
+## Project map
 
-- Designed as a focused model evaluation repo.
-- Keeps setup short.
-- Prioritizes readable output over infrastructure.
+```text
+.github/        CI workflow
+examples/       sample inputs
+src/            package source
+tests/          test coverage
+.gitignore      project file
+```
+
+## Repository
+
+[Open the source on GitHub →](https://github.com/mertefekurt/llm-contract-guard)
+
+[MIT License](LICENSE)
